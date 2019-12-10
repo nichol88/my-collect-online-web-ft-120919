@@ -3,7 +3,7 @@ def my_collect(array)
   r = []
   while i < array.length
     yield array[i]
-    r.push(array[i].split(" ").first)
+    r.push(array[i].split(" ").first.upcase)
     i += 1
   end
   r
