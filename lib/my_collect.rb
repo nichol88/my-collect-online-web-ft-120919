@@ -4,7 +4,7 @@ def my_collect(array)
   while i < array.length
     yield array[i]
     if array[i].include?(" ")
-      r.push(array[i].split(" ").first
+      r.push(array[i].split(" ").first)
     else
       r.push(array[i].upcase)
     end
